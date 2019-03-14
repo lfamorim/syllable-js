@@ -1,5 +1,5 @@
-# syllable@1.0.1
- [![npm version](https://badge.fury.io/js/syllable.svg)](https://npmjs.org/package/syllable)  [![build status](https://travis-ci.org/lfamorim/syllable-js.svg)](https://travis-ci.org/lfamorim/syllable-js)  [![dependency status](https://david-dm.org/lfamorim/syllable-js.svg?theme=shields.io)](https://david-dm.org/lfamorim/syllable-js)  [![devDependency status](https://david-dm.org/lfamorim/syllable-js/dev-status.svg)](https://david-dm.org/lfamorim/syllable-js#info=devDependencies)
+# syllable@1.0.2
+ [![npm version](https://badge.fury.io/js/syllable.svg)](https://npmjs.org/package/syllable-pt) [![dependency status](https://david-dm.org/lfamorim/syllable-js.svg?theme=shields.io)](https://david-dm.org/lfamorim/syllable-js)  [![devDependency status](https://david-dm.org/lfamorim/syllable-js/dev-status.svg)](https://david-dm.org/lfamorim/syllable-js#info=devDependencies)
 
 A ported haskell library for syllabification of words in Portuguese. 
 
@@ -8,7 +8,7 @@ Credits to [jjunho/Syllable](https://github.com/lfamorim/Syllable) for Haskell v
 ## TL;DR
 
 ```javascript
-const syllable = require('syllable');
+const syllable = require('syllable-pt');
 
 script('não');
 // não
