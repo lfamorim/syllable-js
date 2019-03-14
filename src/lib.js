@@ -6867,8 +6867,8 @@ if(h$isNode) {
  // not actually closed, fixme?
         c(0);
     }
-    process.stdin.on('readable', h$base_process_stdin);
-    process.stdin.on('end', function() { h$base_stdin_eof = true; h$base_process_stdin(); });
+    // process.stdin.on('readable', h$base_process_stdin);
+    // process.stdin.on('end', function() { h$base_stdin_eof = true; h$base_process_stdin(); });
     h$base_isattyStdin = function() { return process.stdin.isTTY; };
     h$base_isattyStdout = function() { return process.stdout.isTTY; };
     h$base_isattyStderr = function() { return process.stderr.isTTY; };
