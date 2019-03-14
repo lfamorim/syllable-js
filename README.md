@@ -1,4 +1,4 @@
-# syllable@1.0.0
+# syllable@1.0.1
  [![npm version](https://badge.fury.io/js/syllable.svg)](https://npmjs.org/package/syllable)  [![build status](https://travis-ci.org/lfamorim/syllable-js.svg)](https://travis-ci.org/lfamorim/syllable-js)  [![dependency status](https://david-dm.org/lfamorim/syllable-js.svg?theme=shields.io)](https://david-dm.org/lfamorim/syllable-js)  [![devDependency status](https://david-dm.org/lfamorim/syllable-js/dev-status.svg)](https://david-dm.org/lfamorim/syllable-js#info=devDependencies)
 
 A ported haskell library for syllabification of words in Portuguese. 
@@ -40,7 +40,8 @@ None
 
 ## Dev Dependencies
 
-None
+- [jest](https://github.com/facebook/jest): Delightful JavaScript Testing.
+- [uglify-js](https://github.com/mishoo/UglifyJS2): JavaScript parser, mangler/compressor and beautifier toolkit
 
 ## License
-[MIT]()
+[MIT](https://opensource.org/licenses/MIT)
