@@ -1,6 +1,6 @@
 {
   "name": "syllable-pt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A ported haskell library for syllabification of words in Portuguese",
   "main": "main.js",
   "types": "./lib/main.d.ts",

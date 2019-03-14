@@ -1,6 +1,6 @@
 #!/bin/bash
 SCRIPT="$(cat src/rts.js src/lib.js src/out.js)"
-{ cat | uglifyjs --compress --mangle > index.js; } <<EOF
+{ cat | uglifyjs --compress --mangle > main.js; } <<EOF
 module.exports = function syllable(str) {
   function onload() { return str; }
   var thread;
