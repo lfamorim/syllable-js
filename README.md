@@ -24,7 +24,7 @@ script('piauí');
 Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
 
 ```sh
-npm install syllable --save
+npm install syllable-pt --save
 ```
 
 This package is provided in these module formats:
